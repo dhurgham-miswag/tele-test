@@ -14,12 +14,12 @@ export const IndexPage: FC = () => {
           header="hello"
           footer="You can use these pages to learn more about features, provided by Telegram Mini Apps and other useful projects"
         >
-          <Link to="/ton-connect">
+          <Link to="https://miswag.com">
             <Cell
-              before={<Image src={tonSvg} style={{ backgroundColor: '#007AFF' }}/>}
-              subtitle="Connect your TON wallet"
+              before={<Image src="https://cdn.miswag.me/images/Logo.png" style={{ backgroundColor: '#007AFF' }}/>}
+              subtitle="Miswag"
             >
-              TON Connect
+              your best choose
             </Cell>
           </Link>
         </Section>
